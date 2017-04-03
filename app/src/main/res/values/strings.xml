@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">The I.C.E</string>
+    <string name="i_c_e">I.C.E</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Academic Id</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in >></string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="for_guest_login_put_1234_as_id_and_password">For Guest Login, Put 1234 as id and password</string>
+    <string name="the_i_c_e">The I.C.E</string>
+    <string name="time_of_post">Time of post</string>
+    <string name="content">Content</string>
+    <string name="status">Status</string>
+    <string name="send"><![CDATA[>>]]></string>
+    <string name="logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+</resources>
