@@ -129,23 +129,23 @@ public class LoginActivity extends AppCompatActivity {
                         finish();
                     }
                     else {
+                        showProgress(false);
                         mPasswordView.setError("Password incorrect");
                         mPasswordView.requestFocus();
-                        showProgress(false);
                     }
                 }
 
                 @Override
                 public void onCancelled(DatabaseError databaseError) {
-                    Toast.makeText(getApplicationContext(),"Error! please try in a little while",Toast.LENGTH_SHORT).show();
                     showProgress(false);
+                    Toast.makeText(getApplicationContext(),"Error! please try in a little while",Toast.LENGTH_SHORT).show();
                 }
             });
         }
         else {
+            showProgress(false);
             mEmailView.setError("Id incorrect");
             mEmailView.requestFocus();
-            showProgress(false);
         }
     }
 

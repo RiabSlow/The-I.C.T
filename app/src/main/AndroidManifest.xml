@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sakkar.theice">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -20,8 +20,8 @@
         <activity
             android:name=".login.LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity android:name=".mainfeed.MainFeed"></activity>
-        <activity android:name=".guestfeed.GuestFeed"></activity>
+        <activity android:name=".mainfeed.MainFeed" />
+        <activity android:name=".guestfeed.GuestFeed" />
     </application>
 
 </manifest>
